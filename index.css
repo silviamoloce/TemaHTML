@@ -1,0 +1,226 @@
+body {
+    background-color: gainsboro;
+    margin: 0px
+}
+
+.top-header {
+    background-color: #f27967;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+header > * {
+    padding: 10px;
+}
+
+.nav {
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+main {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.nav-logo {
+    display: flex;
+    gap: 10px
+}
+
+.nav-list {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.hot-news {
+    display: flex;
+    justify-content: center;
+    background-color: #f27979;
+    height: 60px;
+    color: white;
+}
+
+
+
+.hot-news-side {
+    background-color: #f27967;
+    width: 20%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.hot-news {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.small-article {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 400px;
+    background-color: white;
+}
+
+.small-article figure {
+    margin: 0px;
+
+}
+
+.small-article-image {
+    height: 170px;
+    width: 100%;
+}
+
+.small-article-section {
+    padding: 18px;
+}
+
+.big-article {
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+}
+
+.big-article-section {
+    padding: 25px;
+    max-width: 500px;
+}
+
+.big-article-image {
+    height: 100%;
+    width: 100%;
+}
+
+.big-article-figure {
+    height: 100%;
+    margin: 0px;
+    width: 100%;
+}
+
+.medium-article {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.medium-article-figure {
+    margin: 0px;
+}
+
+.medium-article-image {
+    height: 200px;
+    width: 100%;
+}
+
+.small-article-grouping {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 20px;
+}
+
+
+.side-section {
+    height: 500px;
+    background-color: white;
+}
+
+.side-section-figure {
+    width: 100%;
+    margin: 0px;
+
+}
+
+.side-section-image {
+    width: 100%;
+}
+
+.side-second-section {
+    padding: 25px;
+}
+
+.small-side-section {
+    background-color: white;
+    height: 200px;
+    padding: 20px;
+}
+
+.right-container {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 300px;
+}
+
+.big-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-google-plus-g,
+.fa-youtube,
+.fa-envelope,
+.fa-magnifying-glass {
+    color: white;
+    margin-left: 10px;
+    margin-right: 4px;
+}
+
+
+.contact-email {
+    color: white;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f27967;
+    height: 40px;
+    align-items: center;
+    color: white;
+    margin-top: 100px;
+}
+
+footer > * {
+    padding: 10px;
+}
